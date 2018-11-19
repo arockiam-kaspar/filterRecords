@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+.header-container{
+  margin: 15px;
+}
+.search-wrapper{
+  width: 350px;
+  input{
+    width: 200px;
+  }
+}
+
+table.table-wrapper {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 40px;
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #1e90ff;
+  }
+  tr:nth-child(1){
+    background-color: #000;
+    color: #fff;
+  }
+}
+
